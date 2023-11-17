@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
+  
+
+
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="#" method="get">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <input id="firmName" name="firmName" type="text" placeholder="Название компании*">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input id="firmInn" name="firmInn" type="text" placeholder="ИНН*">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input id="firmKpp" name="firmKpp" type="text" placeholder="КПП*">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input type="text" id="phone" placeholder="+7 (___) ___ __ __*">
+            <!-- <input type='tel' id="phone" pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' placeholder="+7 (___) ___ __ __*"> -->
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input id="email" name="email" type="text" placeholder="Адрес электронной почты*"> 
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input id="FIO" name="FIO" type="text" placeholder="ФИО представителя*">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+               <textarea name="textar" id="" cols="30" rows="10"></textarea>
+                <div class="error"></div>
+            </div>
+
+
+
+
+
+            <!-- <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div> -->
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/form.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+   $(document).ready(function() {
+    $("#phone").mask("+7 (999) 999-99-99");
+  });
+</script> -->
+
+</body>
+</html>
